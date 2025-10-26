@@ -5,6 +5,8 @@ import Hero from './components/Hero'
 
 import Footer from './components/Footer'
 import EditorialsSimple from './components/EditorialsSimple'
+import Activities from './components/Activities'
+import Team from './components/Team'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <main className="mt-8">
         <Hero />
         <EditorialsSimple />
+        <Activities />
+        <Team />
       </main>
       <Footer />
     </div>

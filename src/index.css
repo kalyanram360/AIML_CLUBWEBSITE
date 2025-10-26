@@ -1,3 +1,137 @@
+@import "tailwindcss";
 
+@keyframes border-beam {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-@import './App.css';
+@keyframes border-beam-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Border traveling lights - move along each edge */
+@keyframes animate-border-travel-horizontal {
+  0% {
+    left: -24px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animate-border-travel-horizontal-reverse {
+  0% {
+    right: -24px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    right: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animate-border-travel-vertical-right {
+  0% {
+    top: -24px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes animate-border-travel-vertical-left {
+  0% {
+    bottom: -24px;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    bottom: 100%;
+    opacity: 0;
+  }
+}
+
+/* Glowing orb traveling around the border perimeter */
+@keyframes animate-travel-border {
+  0% {
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  /* Travel along top edge */
+  24% {
+    top: 0;
+    left: 100%;
+  }
+  25% {
+    top: 0;
+    left: 100%;
+  }
+  /* Travel along right edge */
+  49% {
+    top: 100%;
+    left: 100%;
+  }
+  50% {
+    top: 100%;
+    left: 100%;
+  }
+  /* Travel along bottom edge */
+  74% {
+    top: 100%;
+    left: 0;
+  }
+  75% {
+    top: 100%;
+    left: 0;
+  }
+  /* Travel along left edge */
+  95% {
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+}
