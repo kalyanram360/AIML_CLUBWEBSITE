@@ -1,3 +1,4 @@
+import logo from '../assets/logo.png';
 // import { useState, useEffect } from 'react';
 // import { motion } from 'framer-motion';
 // import { FaUsers, FaCalendarAlt, FaProjectDiagram } from 'react-icons/fa';
@@ -512,9 +513,9 @@ export default function Hero() {
               {/* Logo */}
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
-                <img 
-                  src="src\assets\logo.png"
-                  alt="AI Club Logo" 
+                <img
+                  src={logo}
+                  alt="AI Club Logo"
                   className="relative w-20 h-20 md:w-32 md:h-32 rounded-full object-cover border-4 border-cyan-400/60 shadow-2xl group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
