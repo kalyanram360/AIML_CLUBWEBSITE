@@ -1,4 +1,4 @@
-import { useState, useRef, type MouseEvent, type ReactNode } from "react";
+import { useRef, type MouseEvent, type ReactNode } from "react";
 
 function cn(...args: any[]) {
   return args
@@ -22,7 +22,6 @@ export const CardContainer = ({
   containerClassName?: string;
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isMouseEntered, setIsMouseEntered] = useState(false);
 
   const handleMouseMove = (e: MouseEvent<HTMLDivElement>) => {
     if (!containerRef.current) return;
@@ -34,13 +33,11 @@ export const CardContainer = ({
   };
 
   const handleMouseEnter = () => {
-    setIsMouseEntered(true);
     if (!containerRef.current) return;
   };
 
   const handleMouseLeave = () => {
     if (!containerRef.current) return;
-    setIsMouseEntered(false);
     containerRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
   };
 
@@ -197,14 +194,13 @@ export const CardItem = ({
   [key: string]: any;
 }) => {
   const ref = useRef<HTMLDivElement>(null);
-  const [isMouseEntered, setIsMouseEntered] = useState(false);
-
+  
   const handleMouseEnter = () => {
-    setIsMouseEntered(true);
+    // Intentionally left blank — hover state not used currently
   };
 
   const handleMouseLeave = () => {
-    setIsMouseEntered(false);
+    // Intentionally left blank — hover state not used currently
   };
 
   return (

@@ -400,7 +400,6 @@ export default function Activities() {
     ? sampleActivities 
     : sampleActivities.filter(activity => activity.year.toString() === activeYear);
 
-  const expandedActivity = expandedId ? activities.find(a => a.id === expandedId) : null;
 
   return (
     <section
