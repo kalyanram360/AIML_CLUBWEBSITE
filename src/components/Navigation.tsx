@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
-  { name: 'Objectives', href: '#objectives' },
-  { name: 'Outcomes', href: '#outcomes' },
+  // { name: 'About', href: '#about' },
+  // { name: 'Objectives', href: '#objectives' },
+  // { name: 'Outcomes', href: '#outcomes' },
   { name: 'Team', href: '#team' },
   { name: 'Activities', href: '#activities' },
   { name: 'Editorials', href: '#editorials-simple' },
@@ -75,7 +75,7 @@ export default function Navigation() {
               className="text-2xl font-bold bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent tracking-tight"
               data-testid="link-logo"
             >
-              AI Club
+              AIMOrbit
             </a>
 
             {/* Desktop Navigation */}

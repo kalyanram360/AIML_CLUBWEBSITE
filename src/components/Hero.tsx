@@ -550,7 +550,7 @@ export default function Hero() {
 
             {/* College Name with Friendlier Style */}
             <p className="text-lg md:text-xl text-[#0891b2] mb-6 font-semibold tracking-wide" style={{ fontFamily: "'Inter', sans-serif" }}>
-              🎓 Tech University Engineering College
+              🎓 Gayatri Vidya Parishad College of Engineering 
             </p>
 
             {/* Typing Animation with More Engaging Messages */}
