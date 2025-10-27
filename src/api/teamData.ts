@@ -3,8 +3,8 @@ import type { TeamMember } from '../shared/schema';
 export const teamMembers: TeamMember[] = [
    {
     id: 1,
-    name: 'Saripalli CK MahaLakshmi',
-    role: 'Faculty Coordinator',
+    name: 'Dr. D Uma Devi',
+    role: 'Head of the Department CSE(AI & ML)',
     category: 'faculty',
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
     linkedin: 'https://linkedin.com',
