@@ -8,7 +8,8 @@ import { teamMembers as localTeamMembers } from '../api/teamData';
 // Local TeamMember type fallback (mirrors the shape used by this component)
 
   
-type TeamMember = {
+type TeamMember = 
+{
   id: string;
   name: string;
   category?: 'faculty' | 'student' | 'core' | string;
