@@ -5,19 +5,20 @@ import { FaLinkedin } from 'react-icons/fa';
 import { useQuery } from '@tanstack/react-query';
 import { teamMembers as localTeamMembers } from '../api/teamData';
 
-// Local TeamMember type fallback (mirrors the shape used by this component)
+ // Local TeamMember type fallback (mirrors the shape used by this component)
 
-  
-type TeamMember = 
-{
-  id: string;
-  name: string;
-  category?: 'faculty' | 'student' | 'core' | string;
-  imageUrl?: string | null;
-  avatarColor?: string;
-  role?: string;
-  department?: string;
-};
+   
+ type TeamMember = 
+ {
+   id: string;
+   name: string;
+   category?: 'faculty' | 'student' | 'core' | string;
+   imageUrl?: string | null;
+   avatarColor?: string;
+   role?: string;
+   department?: string;
+   linkedin?: string;
+ };
 
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
