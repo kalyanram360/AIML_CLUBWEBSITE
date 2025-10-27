@@ -132,7 +132,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/niharika.jpg'
+    imageUrl: '/images/team/niharika.jpeg'
   },{
     id: 8,
     name: 'Ryan Patel',
@@ -172,7 +172,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/sarvani.jpg'
+    imageUrl: '/images/team/sarvani.jpeg'
   },{
     id: 8,
     name: 'Ryan Patel',
@@ -220,7 +220,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/sirisha.jpg'
+    imageUrl: '/images/team/sirisha.jpeg'
   },{
     id: 8,
     name: 'Ryan Patel',
