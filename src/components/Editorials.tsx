@@ -82,7 +82,7 @@ export default function Editorials() {
           className="text-center mb-12"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent tracking-tight">
-            Editorials & Articles
+           MAGZINE
           </h2>
           <p className="text-lg text-[#475569] max-w-2xl mx-auto mb-8">
             Insights, tutorials, and stories from our AI community
