@@ -276,6 +276,6 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/vardhan.jpg'
+    imageUrl: '/images/team/vaedhan.jpeg'
   }
 ];
