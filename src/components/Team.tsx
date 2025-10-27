@@ -8,7 +8,8 @@ import { teamMembers as localTeamMembers } from '../api/teamData';
 // Local TeamMember type fallback (mirrors the shape used by this component)
 
   
-type TeamMember = {
+type TeamMember = 
+{
   id: string;
   name: string;
   category?: 'faculty' | 'student' | 'core' | string;
@@ -21,10 +22,10 @@ type TeamMember = {
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
 const categories = [
-  { id: 'all', label: 'All Members' },
+
   { id: 'faculty', label: 'Faculty Coordinators' },
-  { id: 'student', label: 'Student Leaders' },
-  { id: 'core', label: 'Core Team' },
+ 
+  { id: 'core', label: 'Core Team' }
 ];
 
 const techCursors = [
@@ -37,12 +38,10 @@ const techCursors = [
 ];
 
 export default function Team() {
-  const [activeCategory, setActiveCategory] = useState('all');
-  const [showTeam, setShowTeam] = useState(false);
+  const [activeCategory, setActiveCategory] = useState('faculty');
+  const [showTeam, setShowTeam] = useState(true);
   const samplePrompts = [
-    'Hello GPT !! can you please display the pillars of our club ?',
-    'Show the team roster and highlight the club\'s strengths and expertise areas.',
-    'List team members and summarize the club pillars (innovation, research, education).'
+    'Hello GPT !! can you display our team ?'
   ];
   const [promptValue, setPromptValue] = useState(samplePrompts[0]);
   const [ref, inView] = useInView({
@@ -57,9 +56,7 @@ export default function Team() {
     queryFn: async () => localTeamMembers as unknown as TeamMember[],
   });
 
-  const teamMembers = activeCategory === 'all' 
-    ? allMembers 
-    : allMembers.filter(member => member.category === activeCategory);
+  const teamMembers = allMembers.filter(member => member.category === activeCategory);
 
   const getInitials = (name: string) => {
     return name.split(' ').map(n => n[0]).join('');

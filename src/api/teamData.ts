@@ -7,10 +7,10 @@ export const teamMembers: TeamMember[] = [
     role: 'Head of the Department CSE(AI & ML)',
     category: 'faculty',
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/dr-uma-devi-deva-406875109?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     imageUrl: '/images/team/uma.jpeg'
   }, {
-    id: 5,
+    id: 2,
     name: 'Dr. G. Satya Keerthi',
     role: 'Associate Professor',
     category: 'faculty',
@@ -20,7 +20,7 @@ export const teamMembers: TeamMember[] = [
   },
   
   {
-    id: 1,
+    id: 3,
     name: 'Saripalli CK MahaLakshmi',
     role: 'Assistant Professor',
     category: 'faculty',
@@ -29,7 +29,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/lakshmi.jpg'
   },
   {
-    id: 2,
+    id: 4,
     name: 'Dr.A.Ajay Kumar',
     role: 'Associate Professor',
     category: 'faculty',
@@ -38,7 +38,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/ajay.jpg'
   },
   {
-    id: 3,
+    id: 5,
     name: 'Dr. K. Beulah',
     role: 'Assistant Professor',
     category: 'faculty',
@@ -47,26 +47,26 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/beulah.jpg'
   },
   {
-    id: 4,
+    id: 6,
     name: 'Mrs Dasari Madhavi',
     role: 'Assistant Professor' ,
     category: 'faculty',
     description: 'Coordinating events and workshops to bring AI learning to everyone.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/madhavi-dasari-032b5a1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/madhavi.jpg'
   },
  
   {
-    id: 6,
+    id: 7,
     name: 'T. Sai Sindhuja',
     role: 'Assistant Professor',
     category: 'faculty',
     description: 'Organizing hackathons, workshops, and industry collaboration events.',
-    linkedin: '',
+    linkedin: 'https://in.linkedin.com/in/t-sai-sindhuja-undefined-034b52301',
     imageUrl: '/images/team/sindhuja.jpg'
   },
   {
-    id: 7,
+    id: 8,
     name: 'SK.Abdul Razaq',
     role: 'President',
     category: 'core',
@@ -75,7 +75,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/razaq.jpg'
   },
   {
-    id: 8,
+    id: 9,
     name: 'Rishitha Garapati',
     role: 'Secretary',
     category: 'core',
@@ -84,7 +84,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/rishitha.jpg'
   },
   {
-    id: 8,
+    id: 10,
     name: 'Reddi Karthika',
     role: 'Vice president',
     category: 'core',
@@ -93,7 +93,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/karthika.jpeg'
   },
   {
-    id: 8,
+    id: 11,
     name: 'Yeddu Tejaswani',
     role: 'Joint Secretary',
     category: 'core',
@@ -102,7 +102,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/tejaswini.jpg'
   },
   {
-    id: 8,
+    id: 12,
     name: 'D.Adithya Yadav',
     role: 'Treasurer',
     category: 'core',
@@ -111,7 +111,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/aditya.jpg'
   },
   {
-    id: 8,
+    id: 13,
     name: 'M. Kalyan Ram ',
     role: 'Technical Lead ',
     category: 'core',
@@ -119,7 +119,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/kalyan-ram-matcha-47b540292/ ',
     imageUrl: '/images/team/kalyan.jpeg'
   },{
-    id: 8,
+    id: 14,
     name: 'P.Preethika ',
     role: 'Technical Lead',
     category: 'core',
@@ -127,7 +127,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/penta-preethika-63267628b?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     imageUrl: '/images/team/preethika.jpg'
   },{
-    id: 8,
+    id: 15,
     name: 'T. Sai Sankar',
     role: 'Technical Lead ',
     category: 'core',
@@ -136,7 +136,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/shankar.jpg'
   }
   ,{
-    id: 8,
+    id: 16,
     name: 'Anand Mahadev P ',
     role: 'Creative Content Lead ',
     category: 'core',
@@ -144,7 +144,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/anand-mahadev-penumudi-a9a515290/',
     imageUrl: '/images/team/anandh.jpg'
   },{
-    id: 8,
+    id: 17,
     name: 'Y. Hiranvika ',
     role: 'Creative Content Lead',
     category: 'core',
@@ -152,7 +152,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/hiranvika-yemineni-827852300/',
     imageUrl: '/images/team/hiranvika.jpg'
   },{
-    id: 8,
+    id: 18,
     name: 'V. Sai Gautam ',
     role: 'Editorial Lead',
     category: 'core',
@@ -160,7 +160,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/sai-gautam-a07795283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/gautham.jpg'
   },{
-    id: 8,
+    id: 19,
     name: 'Sathvic Devabathula ',
     role: 'Editorial Lead',
     category: 'core',
@@ -168,7 +168,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'www.linkedin.com/in/sathvic-devabathula-b96316290',
     imageUrl: '/images/team/sathvic.jpg'
   },{
-    id: 8,
+    id: 20,
     name: 'Ravi Kolli ',
     role: 'PR & Media Lead',
     category: 'core',
@@ -176,7 +176,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/ravi-kolli-7b928b261',
     imageUrl: '/images/team/ravi.jpg'
   },{
-    id: 8,
+    id: 21,
     name: 'K.Sirisha',
     role: 'PR & Media Lead',
     category: 'core',
@@ -184,7 +184,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/komirisetti-sirisha-7833262b1',
     imageUrl: '/images/team/siri.jpg'
   },{
-    id: 8,
+    id: 22,
     name: 'M.Shiva Gowtham',
     role: 'Logistics & Hospitality',
     category: 'core',
@@ -192,7 +192,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/m-shiva-gowtham-1a20a8301',
     imageUrl: '/images/team/sivagautham.jpg'
   },{
-    id: 8,
+    id: 23,
     name: 'Dileep Kumar Chelluri ',
     role: 'Logistics & Hospitality',
     category: 'core',
@@ -200,7 +200,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/dileep-kumar-1290a9301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/dileep.jpg'
   },{
-    id: 8,
+    id: 24,
     name: 'V S Siddhard sai ',
     role: 'Technical Team',
     category: 'core',
@@ -209,7 +209,7 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/siddhardh.jpg'
   },
   {
-    id: 8,
+    id: 25,
     name: 'Ch. Niharika',
     role: 'Technical Team ',
     category: 'core',
@@ -217,7 +217,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/niharika-bonela-2aa747357',
     imageUrl: '/images/team/niharika.jpeg'
   },{
-    id: 8,
+    id: 26,
     name: 'Sirisha Maragada ',
     role: 'Creative Content Team',
     category: 'core',
@@ -225,7 +225,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/sirish-maragada-272707322',
     imageUrl: '/images/team/sirisha.jpg'
   },{
-    id: 8,
+    id: 27,
     name: 'M.D.N Sarvani ',
     role: 'Creative Content Team',
     category: 'core',
@@ -233,7 +233,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/m-d-n-sarvani-02731b326/',
     imageUrl: '/images/team/sarvani.jpeg'
   },{
-    id: 8,
+    id: 28,
     name: 'B.Mahesh ',
     role: 'Editorial Team',
     category: 'core',
@@ -241,7 +241,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'www.linkedin.com/in/mahesh-bolla-ab5b23358/',
     imageUrl: '/images/team/mahesh.jpg'
   },{
-    id: 8,
+    id: 29,
     name: 'P. Harshini ',
     role: 'Editorial Team',
     category: 'core',
@@ -249,7 +249,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/harshini-pappala-460512343',
     imageUrl: '/images/team/harshini.jpeg'
   },{
-    id: 8,
+    id: 30,
     name: 'B. Leela Sri SatyaVathi ',
     role: 'PR and Media team ',
     category: 'core',
@@ -257,7 +257,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'www.linkedin.com/in/leela-borra-46837b324 ',
     imageUrl: '/images/team/leela.jpg'
   },{
-    id: 8,
+    id: 31,
     name: 'Bhavya Sadhanala',
     role: 'PR and Media team ',
     category: 'core',
@@ -265,7 +265,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/bhavya-sadhanala-040b82330',
     imageUrl: '/images/team/bhavya.jpg'
   },{
-    id: 8,
+    id: 32,
     name: 'G. Sri Sai Harshita ',
     role: 'PR & Media Team',
     category: 'core',
@@ -273,20 +273,20 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/srisaiharshitagollapalli  ',
     imageUrl: '/images/team/harshitha.jpg'
   },{
-    id: 8,
+    id: 33,
     name: 'P.Sai Siva Kumar',
     role: 'Logistics & Hospitality',
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/sai-pandrinki-b11aa4394?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     imageUrl: '/images/team/shivakumar.jpg'
   },{
-    id: 8,
+    id: 34,
     name: 'V.Harsha Vardhan ',
     role: 'Logistics & Hospitality',
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
-    linkedin: '',
+    linkedin: 'www.linkedin.com/in/harsha-vardhan-881737395',
     imageUrl: '/images/team/vaedhan.jpeg'
   }
 ];
