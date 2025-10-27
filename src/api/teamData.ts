@@ -7,7 +7,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Head of the Department CSE(AI & ML)',
     category: 'faculty',
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/dr-uma-devi-deva-406875109?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     imageUrl: '/images/team/uma.jpeg'
   }, {
     id: 2,
@@ -51,7 +51,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Assistant Professor' ,
     category: 'faculty',
     description: 'Coordinating events and workshops to bring AI learning to everyone.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/madhavi-dasari-032b5a1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/madhavi.jpg'
   },
   
@@ -61,7 +61,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Assistant Professor',
     category: 'faculty',
     description: 'Organizing hackathons, workshops, and industry collaboration events.',
-    linkedin: '',
+    linkedin: 'https://in.linkedin.com/in/t-sai-sindhuja-undefined-034b52301',
     imageUrl: '/images/team/sindhuja.jpg'
   },
   {
@@ -277,7 +277,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Logistics & Hospitality',
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/sai-pandrinki-b11aa4394?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     imageUrl: '/images/team/shivakumar.jpg'
   },{
     id: 34,
@@ -285,7 +285,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Logistics & Hospitality',
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
-    linkedin: '',
+    linkedin: 'www.linkedin.com/in/harsha-vardhan-881737395',
     imageUrl: '/images/team/vaedhan.jpeg'
   }
 ];

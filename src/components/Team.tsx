@@ -22,8 +22,9 @@ type TeamMember =
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
 const categories = [
-  { id: 'all', label: 'All Members' },
+
   { id: 'faculty', label: 'Faculty Coordinators' },
+ 
   { id: 'core', label: 'Core Team' },
 ];
 
@@ -38,12 +39,9 @@ const techCursors = [
 
 export default function Team() {
   const [activeCategory, setActiveCategory] = useState('all');
-  // Show the team by default (no prompt required)
-  const [showTeam, setShowTeam] = useState(true);
+  const [showTeam, setShowTeam] = useState(false);
   const samplePrompts = [
-    'Hello GPT !! can you please display the pillars of our club ?',
-    'Show the team roster and highlight the club\'s strengths and expertise areas.',
-    'List team members and summarize the club pillars (innovation, research, education).'
+    'Hello GPT !! can you display our team ?'
   ];
   const [promptValue, setPromptValue] = useState(samplePrompts[0]);
   const [ref, inView] = useInView({
@@ -58,9 +56,7 @@ export default function Team() {
     queryFn: async () => localTeamMembers as unknown as TeamMember[],
   });
 
-  const teamMembers = activeCategory === 'all' 
-    ? allMembers 
-    : allMembers.filter(member => member.category === activeCategory);
+  const teamMembers = allMembers.filter(member => member.category === activeCategory);
 
   const getInitials = (name: string) => {
     return name.split(' ').map(n => n[0]).join('');
