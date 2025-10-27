@@ -329,9 +329,9 @@ const sampleActivities: Event[] = [
     title: 'Introduction to LLM',
     description: 'Guest lecture by   Dr. Eduri Raja speech on Large Language Models (LLMs) highlighted their transformative role in modern Artificial Intelligence, emphasizing their importance in enhancing natural language understanding and generation. He discussed how neural networks form the backbone of LLMs, enabling them to process and learn complex patterns from vast amounts of text data. Dr. Raja also covered core concepts of Natural Language Processing (NLP), such as tokenization, attention mechanisms, and language modeling, illustrating how these techniques power applications ranging from machine translation to conversational AI. His insights underscored the growing impact of LLMs in various industries, shaping the future of human-computer interaction and data analysis.  ',
     images: [
-      'images/team/3.1.png',
-      'images/team/3.2.png',
-      'images/team/3.3.png'
+      'images/team/3.1.jpg',
+      'images/team/3.2.jpg',
+      'images/team/3.3.jpg'
     ],
     participants: 70,
     tags: [ 'AI Applications', 'Guest Speaker','LLM'],
@@ -344,9 +344,9 @@ const sampleActivities: Event[] = [
     title: 'AI and Dl Workshop',
     description: 'The AI Club of GVPCE successfully organized a highly informative and interactive Deep Learning and Artificial Intelligence Session on 20th & 21st December 2024 through Google Meet. The session was delivered by Mr. Sandeep Vissapragada, an alumnus of our college currently pursuing M.Tech at IIT Bhilai.The two-day session provided a structured and in-depth exploration of key concepts in Deep Learning and AI. The first day began with an introduction to Artificial Intelligence, its evolution over the years, and its impact on multiple industries. Participants were guided through the fundamentals of neural networks, activation functions, and optimization techniques, giving them a strong conceptual foundation.',
     images: [
-      'images/team/3.1.1.png',
-      'images/team/4.2.png',
-      'images/team/4.3.png',
+      'images/team/3.1.1.jpg',
+      'images/team/4.2.jpg',
+      'images/team/4.3.jpg',
     ],
     participants: 45,
     tags: ['AI', 'Deep Learning', 'Virtual']
@@ -374,9 +374,9 @@ const sampleActivities: Event[] = [
     title: 'Git and GitHub',
     description: 'The AI Club of GVPCE(A) is organizing a Workshop on Git & GitHub exclusively for  2nd-Year CSM Students. The workshop will introduce students to the essentials of version control systems and collaborative platforms, which form the backbone of modern software development and teamwork in the tech industry.',
     images: [
-      'images/team/6.1.png',
-      'images/team/6.2.png',
-      'images/team/6.3.png',
+      'images/team/6.1.jpg',
+      'images/team/6.2.jpg',
+      'images/team/6.3.jpg',
     ],
     participants: 72,
     tags: ['Git', 'GitHub', 'Version Control', 'Open Source Contribution'],
@@ -389,10 +389,10 @@ const sampleActivities: Event[] = [
     title: 'Ai Tools Wave',
     description: 'This workshop is designed to introduce students to a wide range of AI-powered tools that can generate images within seconds, edit videos in smart ways, speed up coding, and even convert text into voice. The session will provide valuable insights into how these tools can be effectively used for academic projects, technical presentations, and overall personal growth.',
     images: [
-      'images/team/7.1.png',
-      'images/team/7.2.png',
-      'images/team/7.3.png',
-      'images/team/7.4.png',
+      'images/team/7.1.jpg',
+      'images/team/7.2.jpg',
+      'images/team/7.3.jpg',
+      'images/team/7.4.jpg',
     ],
     participants: 100,
     tags: ['AI', 'Tools'],
