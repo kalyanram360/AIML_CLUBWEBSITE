@@ -25,7 +25,7 @@ import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 const categories = [
 
   { id: 'faculty', label: 'Faculty Coordinators' },
-  { id: 'student', label: 'Student Leaders' },
+ 
   { id: 'core', label: 'Core Team' },
 ];
 
