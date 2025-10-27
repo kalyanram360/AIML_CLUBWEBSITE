@@ -290,35 +290,36 @@ type Event = {
 
 // Sample Activities Data
 const sampleActivities: Event[] = [
+  
   {
     id: '1',
     category: 'Workshop',
-    date: 'March 15',
+    date: 'October 5',
+    year: '2024',
+    title: 'AI Club Inauguration',
+    description: 'The AI Club at GVPCE(A) marked its revival with a grand inauguration on October 5th, 2024, attended by distinguished faculty including Dr. A. Syamsundar, Vice Principal, and other department heads. The event featured engaging activities like the Code Crackdown Quiz and Turing Test Challenge, where students tested their technical knowledge and AI understanding. The club's leadership, K. Anil Kumar (President) and N. Renu Sriya (Secretary), outlined their vision for fostering innovation and learning in AI, setting a strong foundation for future activities.',
+    images: [
+      'images/team/1.1.jpg',
+      'images/team/1.2.jpg',
+      'images/team/1.3.jpg',
+    ],
+    participants: 200,
+    tags: [],
+  },
+  {
+    id: '',
+    category: 'Workshop',
+    date: 'December 10',
     year: '2024',
     title: 'Python Session',
-    description: 'An intensive workshop covering the basics of machine learning, including supervised and unsupervised learning algorithms. Participants learned hands-on implementation using Python and popular ML libraries like scikit-learn and TensorFlow. The workshop included practical exercises, real-world case studies, and collaborative projects that helped students understand the core concepts of ML.',
+    description: 'The Python workshop provided participants with a comprehensive introduction to Python programming. It covered key topics such as basic syntax, data types, control flow (if-else, loops), and functions. Additionally, the workshop explored more advanced concepts like object-oriented programming, handling libraries, and practical applications in data analysis and web development.The session included hands-on coding exercises, aimed at reinforcing the theoretical concepts through real-world examples. Whether for beginners or those with some programming experience, the workshop offered valuable insights into Python's versatility and its potential in various domains.',
     images: [
-      'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop',
+      'images/team/2.3.jpg',
+      'images/team/2.2.jpg',
       "/images/team/2.1.jpg",
     ],
     participants: 85,
-    tags: ['Machine Learning', 'Python', 'Hands-on', 'Beginner Friendly'],
-  },
-  {
-    id: '2',
-    category: 'Hackathon',
-    date: 'February 10',
-    year: '2024',
-    title: 'AI Innovation Challenge 2024',
-    description: '48-hour hackathon where teams competed to build innovative AI solutions for real-world problems. Projects ranged from healthcare diagnostics to environmental monitoring systems. Winners received mentorship opportunities and funding for their projects. The event brought together talented developers, data scientists, and AI enthusiasts to collaborate and create impactful solutions.',
-    images: [
-      'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop',
-    ],
-    participants: 120,
-    tags: ['Hackathon', 'Innovation', 'Team Work', '48 Hours', 'Competition'],
+    tags: ['Python', 'Hands-on', 'Beginner Friendly'],
   },
   {
     id: '3',
