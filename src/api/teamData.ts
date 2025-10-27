@@ -220,7 +220,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/sirisha.jpeg'
+    imageUrl: '/images/team/sirisha.jpg'
   },{
     id: 8,
     name: 'Ryan Patel',
