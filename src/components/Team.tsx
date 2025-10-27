@@ -1210,7 +1210,7 @@ export default function Team() {
                     {/* LinkedIn */}
                     <CardItem translateZ="70" className="flex justify-center">
                       <motion.a
-                        href="https://www.linkedin.com/in/penta-preethika-63267628b?utm_source=share&utm_content=profile&utm_medium=member_android"
+                        href={member.linkedin}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-[#f1f5f9] text-[#475569] hover:bg-gradient-to-r hover:from-[#0891b2] hover:to-[#059669] hover:text-white transition-all duration-300 relative overflow-visible group/linkedin"

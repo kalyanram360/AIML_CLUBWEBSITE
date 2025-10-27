@@ -49,10 +49,10 @@ export const teamMembers: TeamMember[] = [
   {
     id: 4,
     name: 'Mrs Dasari Madhavi',
-    role: 'Vice President',
+    role: 'Assistant Professor' ,
     category: 'faculty',
     description: 'Coordinating events and workshops to bring AI learning to everyone.',
-    linkedin: 'Assistant Professor',
+    linkedin: '',
     imageUrl: '/images/team/madhavi.jpg'
   },
  
