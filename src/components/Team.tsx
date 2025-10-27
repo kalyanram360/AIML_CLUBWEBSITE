@@ -38,7 +38,7 @@ export default function Team() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [showTeam, setShowTeam] = useState(false);
   const samplePrompts = [
-    'Hello GPT !! can you display our team?',
+    'Hello GPT !! can you please display the pillars of our club ?',
     'Show the team roster and highlight the club\'s strengths and expertise areas.',
     'List team members and summarize the club pillars (innovation, research, education).'
   ];
