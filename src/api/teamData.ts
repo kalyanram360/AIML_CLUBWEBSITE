@@ -8,7 +8,7 @@ export const teamMembers: TeamMember[] = [
     category: 'faculty',
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_4369a320.jpg'
+    imageUrl: '/images/team/lakshmi.jpg'
   },
   {
     id: 2,
@@ -17,43 +17,43 @@ export const teamMembers: TeamMember[] = [
     category: 'faculty',
     description: 'Specialist in Computer Vision and Deep Learning Research.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_bd905e93.jpg'
+    imageUrl: '/images/team/ajay.jpg'
   },
   {
     id: 3,
     name: 'Alex Kumar',
     role: 'President',
-    category: 'student',
+    category: 'faculty',
     description: 'Leading the club with passion for AI innovation and student engagement.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_1a188f46.jpg'
+    imageUrl: '/images/team/beulah.jpg'
   },
   {
     id: 4,
     name: 'Emma Rodriguez',
     role: 'Vice President',
-    category: 'student',
+    category: 'faculty',
     description: 'Coordinating events and workshops to bring AI learning to everyone.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_a08f802c.jpg'
+    imageUrl: '/images/team/madhavi.jpg'
   },
   {
     id: 5,
     name: 'Priya Sharma',
     role: 'Technical Lead',
-    category: 'core',
+    category: 'faculty',
     description: 'Managing technical projects and mentoring new members in AI development.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_c5f5bb4e.jpg'
+    imageUrl: '/images/team/satyakeerthi.jpg'
   },
   {
     id: 6,
     name: 'David Lee',
     role: 'Events Coordinator',
-    category: 'core',
+    category: 'faculty',
     description: 'Organizing hackathons, workshops, and industry collaboration events.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_2a542e66.jpg'
+    imageUrl: '/images/team/sindhuja.jpg'
   },
   {
     id: 7,
