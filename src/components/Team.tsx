@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -6,6 +7,7 @@ import { useQuery } from '@tanstack/react-query';
 import { teamMembers as localTeamMembers } from '../api/teamData';
 
 // Local TeamMember type fallback (mirrors the shape used by this component)
+
 type TeamMember = {
   id: string;
   name: string;
