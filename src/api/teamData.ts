@@ -62,7 +62,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Leading research initiatives in NLP and AI ethics.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_663fd3f2.jpg'
+    imageUrl: '/images/team/razaq.jpg'
   },
   {
     id: 8,
@@ -71,6 +71,211 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://linkedin.com',
-    imageUrl: '/images/team/professional_headsho_a04e9f0c.jpg'
+    imageUrl: '/images/team/rishitha.jpg'
+  },
+  {
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/karthika.jpg'
+  },
+  {
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/tejashwini.jpg'
+  },
+  {
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/aditya.jpg'
+  },
+  {
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/kalyan.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/shankar.jpg'
+  }
+  ,{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/preethika.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/niharika.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/siddhardh.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/anandh.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/hiranvika.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/siri.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/sarvani.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/gautham.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/sathvic.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/mahesh.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/harshini.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/ravi.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/sirisha.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/leela.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/bhavya.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/harshitha.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/sivagautham.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/dileep.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/shivakumar.jpg'
+  },{
+    id: 8,
+    name: 'Ryan Patel',
+    role: 'Community Manager',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/vardhan.jpg'
   }
 ];
