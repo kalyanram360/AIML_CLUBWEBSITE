@@ -9,6 +9,14 @@ export const teamMembers: TeamMember[] = [
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
     linkedin: '',
     imageUrl: '/images/team/uma.jpeg'
+  }, {
+    id: 5,
+    name: 'Dr. G. Satya Keerthi',
+    role: 'Associate Professor',
+    category: 'faculty',
+    description: 'Managing technical projects and mentoring new members in AI development.',
+    linkedin: '',
+    imageUrl: '/images/team/satyakeerthi.jpg'
   },
   
   {
@@ -47,15 +55,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'Assistant Professor',
     imageUrl: '/images/team/madhavi.jpg'
   },
-  {
-    id: 5,
-    name: 'Dr. G. Satya Keerthi',
-    role: 'Associate Professor',
-    category: 'faculty',
-    description: 'Managing technical projects and mentoring new members in AI development.',
-    linkedin: '',
-    imageUrl: '/images/team/satyakeerthi.jpg'
-  },
+ 
   {
     id: 6,
     name: 'T. Sai Sindhuja',
