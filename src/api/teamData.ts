@@ -1,10 +1,20 @@
 import type { TeamMember } from '../shared/schema';
 
 export const teamMembers: TeamMember[] = [
-  {
+   {
     id: 1,
     name: 'Saripalli CK MahaLakshmi',
     role: 'Faculty Coordinator',
+    category: 'faculty',
+    description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
+    linkedin: 'https://linkedin.com',
+    imageUrl: '/images/team/uma.jpeg'
+  },
+  
+  {
+    id: 1,
+    name: 'Saripalli CK MahaLakshmi',
+    role: 'Assistant Professor',
     category: 'faculty',
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
     linkedin: 'https://linkedin.com',
@@ -13,7 +23,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 2,
     name: 'Dr.A.Ajay Kumar',
-    role: 'Technical Advisor',
+    role: 'Associate Professor',
     category: 'faculty',
     description: 'Specialist in Computer Vision and Deep Learning Research.',
     linkedin: 'https://linkedin.com',
@@ -22,7 +32,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 3,
     name: 'Dr. K. Beulah',
-    role: 'President',
+    role: 'Assistant Professor',
     category: 'faculty',
     description: 'Leading the club with passion for AI innovation and student engagement.',
     linkedin: 'https://linkedin.com',
@@ -49,7 +59,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 6,
     name: 'T. Sai Sindhuja',
-    role: 'Events Coordinator',
+    role: 'Assistant Professor',
     category: 'faculty',
     description: 'Organizing hackathons, workshops, and industry collaboration events.',
     linkedin: 'https://linkedin.com',
