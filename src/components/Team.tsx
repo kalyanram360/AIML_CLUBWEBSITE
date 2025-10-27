@@ -9,7 +9,7 @@ import { teamMembers as localTeamMembers } from '../api/teamData';
 type TeamMember = {
   id: string;
   name: string;
-  category?: 'faculty' | 'core' | string;
+  category?: 'faculty' | 'student' | 'core' | string;
   imageUrl?: string | null;
   avatarColor?: string;
   role?: string;
@@ -19,10 +19,10 @@ type TeamMember = {
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
 const categories = [
-
-  { id: 'faculty', label: 'Faculty Coordinators' },
+  
+  { id: 'all', label: 'Faculty Coordinators' },
+  { id: 'student', label: 'Student Leaders' }
  
-  { id: 'core', label: 'Core Team' }
 ];
 
 const techCursors = [
@@ -39,7 +39,8 @@ export default function Team() {
   const [showTeam, setShowTeam] = useState(false);
   const samplePrompts = [
     'Hello GPT !! can you display our team ?',
-    
+    'Show the team roster and highlight the club\'s strengths and expertise areas.',
+    'List team members and summarize the club pillars (innovation, research, education).'
   ];
   const [promptValue, setPromptValue] = useState(samplePrompts[0]);
   const [ref, inView] = useInView({
