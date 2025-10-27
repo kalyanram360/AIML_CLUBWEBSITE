@@ -300,7 +300,7 @@ const sampleActivities: Event[] = [
     images: [
       'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=600&fit=crop',
       'https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=600&fit=crop',
-      "/public/images/team/2.1.jpg",
+      "/images/team/2.1.jpg",
     ],
     participants: 85,
     tags: ['Machine Learning', 'Python', 'Hands-on', 'Beginner Friendly'],
