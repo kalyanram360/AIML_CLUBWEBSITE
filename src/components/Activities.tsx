@@ -297,11 +297,11 @@ const sampleActivities: Event[] = [
     date: 'October 5',
     year: '2024',
     title: 'AI Club Inauguration',
-    description: 'The AI Club at GVPCE(A) marked its revival with a grand inauguration on October 5th, 2024, attended by distinguished faculty including Dr. A. Syamsundar, Vice Principal, and other department heads. The event featured engaging activities like the Code Crackdown Quiz and Turing Test Challenge, where students tested their technical knowledge and AI understanding. The club's leadership, K. Anil Kumar (President) and N. Renu Sriya (Secretary), outlined their vision for fostering innovation and learning in AI, setting a strong foundation for future activities.',
+    description: 'The AI Club at GVPCE(A) marked its revival with a grand inauguration on October 5th, 2024, attended by distinguished faculty including Dr. A. Syamsundar, Vice Principal, and other department heads. The event featured engaging activities like the Code Crackdown Quiz and Turing Test Challenge, where students tested their technical knowledge and AI understanding. The clubs leadership, K. Anil Kumar (President) and N. Renu Sriya (Secretary) outlined their vision for fostering innovation and learning in AI, setting a strong foundation for future activities.',
     images: [
       'images/team/1.1.jpg',
       'images/team/1.2.jpg',
-      'images/team/1.3.jpg',
+      'images/team/1.3.jpg'
     ],
     participants: 200,
     tags: [],
@@ -312,7 +312,7 @@ const sampleActivities: Event[] = [
     date: 'December 10',
     year: '2024',
     title: 'Python Session',
-    description: 'The Python workshop provided participants with a comprehensive introduction to Python programming. It covered key topics such as basic syntax, data types, control flow (if-else, loops), and functions. Additionally, the workshop explored more advanced concepts like object-oriented programming, handling libraries, and practical applications in data analysis and web development.The session included hands-on coding exercises, aimed at reinforcing the theoretical concepts through real-world examples. Whether for beginners or those with some programming experience, the workshop offered valuable insights into Python's versatility and its potential in various domains.',
+    description: 'The Python workshop provided participants with a comprehensive introduction to Python programming. It covered key topics such as basic syntax, data types, control flow (if-else, loops), and functions. Additionally, the workshop explored more advanced concepts like object-oriented programming, handling libraries, and practical applications in data analysis and web development.The session included hands-on coding exercises, aimed at reinforcing the theoretical concepts through real-world examples. Whether for beginners or those with some programming experience, the workshop offered valuable insights into Python versatility and its potential in various domains.',
     images: [
       'images/team/2.3.jpg',
       'images/team/2.2.jpg',
