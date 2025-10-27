@@ -24,7 +24,6 @@ import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 const categories = [
   { id: 'all', label: 'All Members' },
   { id: 'faculty', label: 'Faculty Coordinators' },
-  { id: 'student', label: 'Student Leaders' },
   { id: 'core', label: 'Core Team' },
 ];
 
@@ -39,7 +38,8 @@ const techCursors = [
 
 export default function Team() {
   const [activeCategory, setActiveCategory] = useState('all');
-  const [showTeam, setShowTeam] = useState(false);
+  // Show the team by default (no prompt required)
+  const [showTeam, setShowTeam] = useState(true);
   const samplePrompts = [
     'Hello GPT !! can you please display the pillars of our club ?',
     'Show the team roster and highlight the club\'s strengths and expertise areas.',
