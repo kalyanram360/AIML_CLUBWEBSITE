@@ -1,8 +1,8 @@
 import type { TeamMember } from '../shared/schema';
 
 export const teamMembers: TeamMember[] = [
-   {
-    id: 1,
+  {
+   id: 1,
     name: 'Dr. D Uma Devi',
     role: 'Head of the Department CSE(AI & ML)',
     category: 'faculty',
@@ -18,7 +18,6 @@ export const teamMembers: TeamMember[] = [
     linkedin: '',
     imageUrl: '/images/team/satyakeerthi.jpg'
   },
-  
   {
     id: 3,
     name: 'Saripalli CK MahaLakshmi',
@@ -55,7 +54,7 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/madhavi-dasari-032b5a1b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/madhavi.jpg'
   },
- 
+  
   {
     id: 7,
     name: 'T. Sai Sindhuja',

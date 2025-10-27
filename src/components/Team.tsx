@@ -5,27 +5,28 @@ import { FaLinkedin } from 'react-icons/fa';
 import { useQuery } from '@tanstack/react-query';
 import { teamMembers as localTeamMembers } from '../api/teamData';
 
-// Local TeamMember type fallback (mirrors the shape used by this component)
+ // Local TeamMember type fallback (mirrors the shape used by this component)
 
-  
-type TeamMember = 
-{
-  id: string;
-  name: string;
-  category?: 'faculty' | 'student' | 'core' | string;
-  imageUrl?: string | null;
-  avatarColor?: string;
-  role?: string;
-  department?: string;
-};
+   
+ type TeamMember = 
+ {
+   id: string;
+   name: string;
+   category?: 'faculty' | 'student' | 'core' | string;
+   imageUrl?: string | null;
+   avatarColor?: string;
+   role?: string;
+   department?: string;
+   linkedin?: string;
+ };
 
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
 const categories = [
 
   { id: 'faculty', label: 'Faculty Coordinators' },
- 
-  { id: 'core', label: 'Core Team' }
+  { id: 'student', label: 'Student Leaders' },
+  { id: 'core', label: 'Core Team' },
 ];
 
 const techCursors = [
@@ -38,8 +39,8 @@ const techCursors = [
 ];
 
 export default function Team() {
-  const [activeCategory, setActiveCategory] = useState('faculty');
-  const [showTeam, setShowTeam] = useState(true);
+  const [activeCategory, setActiveCategory] = useState('all');
+  const [showTeam, setShowTeam] = useState(false);
   const samplePrompts = [
     'Hello GPT !! can you display our team ?'
   ];
