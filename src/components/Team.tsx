@@ -1207,7 +1207,7 @@ export default function Team() {
                       </CardItem>
                     )}
 
-                    {/* LinkedIn */}
+                    {/* LinkedIn     */}
                     <CardItem translateZ="70" className="flex justify-center">
                       <motion.a
                         href={member.linkedin}
