@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
 

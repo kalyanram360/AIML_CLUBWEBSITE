@@ -134,7 +134,7 @@ export default function TiltedCard({
           <motion.div className="tilted-card-overlay">
             {overlayContent}
 
-            <div className="tilted-card-overlay-actions">
+            {/* <div className="tilted-card-overlay-actions">
               <a
                 href={viewHref ?? '#'}
                 className="tilted-card-btn primary"
@@ -150,7 +150,7 @@ export default function TiltedCard({
               >
                 Download
               </a>
-            </div>
+            </div> */}
           </motion.div>
         )}
       </motion.div>

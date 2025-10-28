@@ -463,7 +463,7 @@ import logo2 from '../assets/logo2.png';
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FaUsers, FaCalendarAlt, FaProjectDiagram } from 'react-icons/fa';
+import { FaUsers, FaCalendarAlt } from 'react-icons/fa';
 
 import { TypeAnimation } from 'react-type-animation';
 import Counter from './Counter';

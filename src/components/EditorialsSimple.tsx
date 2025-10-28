@@ -28,7 +28,7 @@ export default function EditorialsSimple({ items = [] }: Props) {
   
 
   return (
-    <section id="editorials-simple" className="relative py-0 bg-gradient-to-br from-[#f0f9ff] via-[#f0fdf4] to-[#ecfdf5]">
+    <section id="editorials-simple" className="relative py-5 bg-gradient-to-br from-[#f0f9ff] via-[#f0fdf4] to-[#ecfdf5]">
       <div className="absolute inset-0 opacity-20" style={{
         backgroundImage: `radial-gradient(circle at 2px 2px, #94a3b8 1px, transparent 0)`,
         backgroundSize: '50px 50px'
