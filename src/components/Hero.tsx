@@ -464,15 +464,15 @@ import logo2 from '../assets/logo2.png';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaUsers, FaCalendarAlt, FaProjectDiagram } from 'react-icons/fa';
-import { HiChevronDown } from 'react-icons/hi';
+
 import { TypeAnimation } from 'react-type-animation';
 import Counter from './Counter';
 import RotatingText from './RotatingText';
 
 const stats = [
   { icon: FaUsers, value: 50, label: 'Happy Members', suffix: '+' },
-  { icon: FaCalendarAlt, value: 10, label: 'Amazing Events', suffix: '+' },
-  { icon: FaProjectDiagram, value: 100, label: 'Cool Projects', suffix: '+' },
+  { icon: FaCalendarAlt, value: 6, label: 'Amazing Events', suffix: '+' },
+  // { icon: FaProjectDiagram, value: 100, label: 'Cool Projects', suffix: '+' },
 ];
 
 export default function Hero() {
@@ -590,25 +590,28 @@ export default function Hero() {
             </div>
 
             {/* Description with Warmer Tone */}
-            <p className="text-base md:text-lg text-[#475569] mb-8 leading-relaxed max-w-xl" style={{ fontFamily: "'Inter', sans-serif", lineHeight: '1.8' }}>
+            {/* <p className="text-base md:text-lg text-[#475569] mb-8 leading-relaxed max-w-xl" style={{ fontFamily: "'Inter', sans-serif", lineHeight: '1.8' }}>
               Hey there! 👋 Ready to dive into the exciting world of AI? 
               Join our amazing community where creativity meets technology. 
               Whether you're just starting out or already exploring AI, 
               there's a place for you here. Let's learn, create, and grow together!
-            </p>
+            </p> */}
             
             {/* CTA Buttons with Friendlier Text */}
-            <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mb-10">
+            {/* <div className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mb-10">
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
                 className="px-8 py-4 bg-gradient-to-r from-[#0891b2] to-[#059669] text-white font-bold text-base rounded-2xl shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300"
                 style={{ fontFamily: "'Poppins', sans-serif" }}
                 data-testid="button-join-club"
+                //onclick goes to activities section in the same page
+                onClick={() => window.open('#activities', '_self')}
+
               >
                 🎉 Discover More
               </motion.button>
-            </div>
+            </div> */}
 
             {/* Statistics with Friendlier Labels */}
             <div className="grid grid-cols-3 gap-6 w-full max-w-lg">
@@ -740,7 +743,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll Indicator with Friendlier Text */}
-        <motion.a
+        {/* <motion.a
           href="#about"
           onClick={(e) => {
             e.preventDefault();
@@ -753,7 +756,7 @@ export default function Hero() {
         >
           <span className="text-sm font-semibold mb-2" style={{ fontFamily: "'Inter', sans-serif" }}>Explore More ↓</span>
           <HiChevronDown className="w-6 h-6" />
-        </motion.a>
+        </motion.a> */}
       </div>
     </section>
   );

@@ -8,16 +8,22 @@ const navLinks = [
   // { name: 'About', href: '#about' },
   // { name: 'Objectives', href: '#objectives' },
   // { name: 'Outcomes', href: '#outcomes' },
-  { name: 'Team', href: '#team' },
+  {name: '', href: ''},
+  {name: '' , href: ''},
+
+  
   { name: 'Activities', href: '#activities' },
-  { name: 'Editorials', href: '#editorials-simple' },
+  { name: 'Team', href: '#team' },
+  { name: 'Magazines', href: '#editorials-simple' },
 ];
 
+
+//make them open in new tab
+
 const socialLinks = [
-  { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
-  { icon: FaInstagram, href: '#', label: 'Instagram' },
-  { icon: FaGithub, href: '#', label: 'GitHub' },
-  { icon: FaEnvelope, href: '#', label: 'Email' },
+  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/aiclub-gvp-a5212425a/', label: 'LinkedIn' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/gvpaiclub18?igsh=a3V1dWtlb2Ntem84', label: 'Instagram' },
+  { icon: FaEnvelope, href: 'mailto:ai_club@gvpce.ac.in', label: 'Email' },
 ];
 
 export default function Navigation() {

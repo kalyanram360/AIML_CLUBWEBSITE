@@ -22,20 +22,21 @@ export default function EditorialsSimple({ items = [] }: Props) {
 
   const list = items.length ? items : placeholder
 
-  // small data-uri placeholder (light SVG)
-  const placeholderSvg = `data:image/svg+xml;utf8,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500"><rect width="100%" height="100%" fill="#ecfeff"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="20" fill="#075985">No image</text></svg>')}`
+  // use a public placeholder image located in `public/images/team/cpf.png`
+  const placeholderSvg = '/images/team/cpf.png'
 
   
 
   return (
-    <section id="editorials-simple" className="relative py-20 bg-gradient-to-br from-[#f0f9ff] via-[#f0fdf4] to-[#ecfdf5]">
+    <section id="editorials-simple" className="relative py-0 bg-gradient-to-br from-[#f0f9ff] via-[#f0fdf4] to-[#ecfdf5]">
       <div className="absolute inset-0 opacity-20" style={{
         backgroundImage: `radial-gradient(circle at 2px 2px, #94a3b8 1px, transparent 0)`,
         backgroundSize: '50px 50px'
       }} />
 
       <div className="relative max-w-7xl mx-auto px-6">
-        <h3 className="text-5xl md:text-6xl font-bold mb-20 text-center bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent">
+        <h3 className="text-5xl md:text-6xl font-bold mb-20 text-center bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent leading-tight md:leading-snug">
+
           Magazines
         </h3>
 
