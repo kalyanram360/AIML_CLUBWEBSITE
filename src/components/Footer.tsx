@@ -1,27 +1,20 @@
-import { FaLinkedin, FaInstagram, FaGithub, FaEnvelope, FaMapMarkerAlt, FaPhone, FaArrowUp } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaEnvelope, FaMapMarkerAlt, FaArrowUp } from 'react-icons/fa';
 
 const quickLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
-  { name: 'Objectives', href: '#objectives' },
+  { name: 'Activities', href: '#activities' },
   { name: 'Team', href: '#team' },
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Terms of Service', href: '#' },
 ];
 
 const resources = [
-  { name: 'Join the Club', href: '#' },
-  { name: 'Upcoming Events', href: '#activities' },
-  { name: 'Projects Gallery', href: '#' },
-  { name: 'Blog Archive', href: '#editorials' },
-  { name: 'FAQs', href: '#' },
+  { name: '', href: '#' },
 ];
 
 const socialLinks = [
-  { icon: FaLinkedin, href: '#', label: 'LinkedIn' },
-  { icon: FaInstagram, href: '#', label: 'Instagram' },
-  { icon: FaGithub, href: '#', label: 'GitHub' },
-  { icon: FaEnvelope, href: '#', label: 'Email' },
+  { icon: FaLinkedin, href: 'https://www.linkedin.com/in/aiclub-gvp-a5212425a/', label: 'LinkedIn' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/gvpaiclub18?igsh=a3V1dWtlb2Ntem84', label: 'Instagram' },
+  { icon: FaEnvelope, href: 'mailto:ai_club@gvpce.ac.in', label: 'Email' },
 ];
 
 export default function Footer() {
@@ -132,18 +125,18 @@ export default function Footer() {
                 <FaEnvelope className="w-4 h-4 mt-1 text-[#0891b2]" />
                 <span className="text-sm">aiclub@university.edu</span>
               </div>
-              <div className="flex items-start gap-3 text-[#cbd5e1]">
+              {/* <div className="flex items-start gap-3 text-[#cbd5e1]">
                 <FaPhone className="w-4 h-4 mt-1 text-[#0891b2]" />
                 <span className="text-sm">+1 (555) 123-4567</span>
-              </div>
+              </div> */}
               <div className="flex items-start gap-3 text-[#cbd5e1]">
                 <FaMapMarkerAlt className="w-4 h-4 mt-1 text-[#0891b2]" />
-                <span className="text-sm">Tech University Campus, Building A, Room 301</span>
+                <span className="text-sm">Gayatri Vidya Parishad College of Engineering (A) </span>
               </div>
             </div>
 
             {/* Newsletter Form */}
-            <div>
+            {/* <div>
               <p className="text-white font-semibold mb-3">Stay Updated</p>
               <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
                 <input
@@ -160,7 +153,7 @@ export default function Footer() {
                   Subscribe
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -174,7 +167,7 @@ export default function Footer() {
 
             {/* College Logo Placeholder */}
             <div className="text-[#cbd5e1] text-sm font-medium">
-              Tech University Engineering College
+              Gayatri Vidya Parishad College of Engineering (A)
             </div>
 
             {/* Back to Top */}
