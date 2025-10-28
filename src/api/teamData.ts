@@ -15,7 +15,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Associate Professor',
     category: 'faculty',
     description: 'Managing technical projects and mentoring new members in AI development.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/dr-satya-keerthi-gorripati-8bb898137?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/satyakeerthi.jpg'
   },
   {
