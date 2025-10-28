@@ -15,7 +15,7 @@ type Props = {
 export default function EditorialsSimple({ items = [] }: Props) {
   // If no items provided, show a small placeholder list so the UI is visible.
   const placeholder: EditorialItem[] = [
-    { id: 1, name: 'Editorial — October 2025', description: 'Highlights from the month: events, projects and wins.', viewHref: '/AI_Club_Magazine_Final.pdf', downloadHref: '/AI_Club_Magazine_Final.pdf' },
+    { id: 1, name: 'AI_Club_Magazine 2025', description: 'Highlights from the month: events, projects and wins.', viewHref: '/AI_Club_Magazine_Final.pdf', downloadHref: '/AI_Club_Magazine_Final.pdf' },
     // { id: 2, name: 'Club Newsletter — Sept 2025', description: 'Summary of workshops and member spotlights.', viewHref: '#', downloadHref: '#' },
     // { id: 3, name: 'Spotlight: Project X', description: 'An overview of Project X and outcomes achieved.', viewHref: '#', downloadHref: '#' },
   ]

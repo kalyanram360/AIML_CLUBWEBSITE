@@ -77,7 +77,7 @@ export default function Team() {
     <section
       id="team"
       ref={ref}
-      className="py-20 md:py-32 bg-gradient-to-br from-[#f8fafc] via-[#f0fdf4] to-[#ecfdf5] relative overflow-hidden"
+      className="py-20 md:py-10 bg-gradient-to-br from-[#f8fafc] via-[#f0fdf4] to-[#ecfdf5] relative overflow-hidden"
       data-testid="section-team"
     >
       {/* Floating Diagrams Background */}
