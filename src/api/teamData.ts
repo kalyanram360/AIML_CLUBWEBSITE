@@ -9,6 +9,14 @@ export const teamMembers: TeamMember[] = [
     description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
     linkedin: 'https://www.linkedin.com/in/dr-uma-devi-deva-406875109?utm_source=share_via&utm_content=profile&utm_medium=member_android',
     imageUrl: '/images/team/uma.jpeg'
+  },{
+    id: 4,
+    name: 'Dr.A.Ajay Kumar',
+    role: 'Associate Professor',
+    category: 'faculty',
+    description: 'Specialist in Computer Vision and Deep Learning Research.',
+    linkedin: '',
+    imageUrl: '/images/team/ajay.jpg'
   }, {
     id: 2,
     name: 'Dr. G. Satya Keerthi',
@@ -19,24 +27,6 @@ export const teamMembers: TeamMember[] = [
     imageUrl: '/images/team/satyakeerthi.jpg'
   },
   {
-    id: 3,
-    name: 'Saripalli CK MahaLakshmi',
-    role: 'Assistant Professor',
-    category: 'faculty',
-    description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
-    linkedin: '',
-    imageUrl: '/images/team/lakshmi.jpg'
-  },
-  {
-    id: 4,
-    name: 'Dr.A.Ajay Kumar',
-    role: 'Associate Professor',
-    category: 'faculty',
-    description: 'Specialist in Computer Vision and Deep Learning Research.',
-    linkedin: '',
-    imageUrl: '/images/team/ajay.jpg'
-  },
-  {
     id: 5,
     name: 'Dr. K. Beulah',
     role: 'Assistant Professor',
@@ -44,8 +34,16 @@ export const teamMembers: TeamMember[] = [
     description: 'Leading the club with passion for AI innovation and student engagement.',
     linkedin: 'https://www.linkedin.com/in/beulah-k-3a68a1361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/beulah.jpg'
+  },{
+    id: 7,
+    name: 'T. Sai Sindhuja',
+    role: 'Assistant Professor',
+    category: 'faculty',
+    description: 'Organizing hackathons, workshops, and industry collaboration events.',
+    linkedin: 'https://in.linkedin.com/in/t-sai-sindhuja-undefined-034b52301',
+    imageUrl: '/images/team/sindhuja.jpg'
   },
-  {
+   {
     id: 6,
     name: 'Mrs Dasari Madhavi',
     role: 'Assistant Professor' ,
@@ -56,14 +54,18 @@ export const teamMembers: TeamMember[] = [
   },
   
   {
-    id: 7,
-    name: 'T. Sai Sindhuja',
+    id: 3,
+    name: 'Saripalli CK MahaLakshmi',
     role: 'Assistant Professor',
     category: 'faculty',
-    description: 'Organizing hackathons, workshops, and industry collaboration events.',
-    linkedin: 'https://in.linkedin.com/in/t-sai-sindhuja-undefined-034b52301',
-    imageUrl: '/images/team/sindhuja.jpg'
+    description: 'Expert in Machine Learning and Neural Networks with 15+ years of experience.',
+    linkedin: '',
+    imageUrl: '/images/team/lakshmi.jpg'
   },
+  
+  
+ 
+  
   {
     id: 8,
     name: 'SK.Abdul Razaq',
