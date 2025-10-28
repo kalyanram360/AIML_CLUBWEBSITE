@@ -42,11 +42,8 @@ export default function Team() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [showTeam, setShowTeam] = useState(false);
   const samplePrompts = [
-    'Hello GPT !! can you display our team ?'
+    
   ];
-  const [promptValue, setPromptValue] = useState(samplePrompts[0]);
-  const [ref, inView] = useInView({
-    triggerOnce: false,
     threshold: 0.1,
   });
   

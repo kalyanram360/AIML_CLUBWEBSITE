@@ -42,7 +42,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Assistant Professor',
     category: 'faculty',
     description: 'Leading the club with passion for AI innovation and student engagement.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/beulah-k-3a68a1361?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     imageUrl: '/images/team/beulah.jpg'
   },
   {
@@ -70,7 +70,7 @@ export const teamMembers: TeamMember[] = [
     role: 'President',
     category: 'core',
     description: 'Leading research initiatives in NLP and AI ethics.',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/razaq-sheik-0a7851300',
     imageUrl: '/images/team/razaq.jpg'
   },
   {
@@ -285,7 +285,7 @@ export const teamMembers: TeamMember[] = [
     role: 'Logistics & Hospitality',
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
-    linkedin: 'www.linkedin.com/in/harsha-vardhan-881737395',
+    linkedin: 'https://www.linkedin.com/in/harsha-vardhan-881737395',
     imageUrl: '/images/team/vaedhan.jpeg'
   }
 ];
