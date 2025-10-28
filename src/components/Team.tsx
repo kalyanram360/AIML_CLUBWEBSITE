@@ -5,20 +5,20 @@ import { FaLinkedin } from 'react-icons/fa';
 import { useQuery } from '@tanstack/react-query';
 import { teamMembers as localTeamMembers } from '../api/teamData';
 
- // Local TeamMember type fallback (mirrors the shape used by this component)
+// Local TeamMember type fallback (mirrors the shape used by this component)
 
-   
- type TeamMember = 
- {
-   id: string;
-   name: string;
-   category?: 'faculty' | 'student' | 'core' | string;
-   imageUrl?: string | null;
-   avatarColor?: string;
-   role?: string;
-   department?: string;
-   linkedin?: string;
- };
+  
+type TeamMember = 
+{
+  id: string;
+  name: string;
+  category?: 'faculty' | 'student' | 'core' | string;
+  imageUrl?: string | null;
+  avatarColor?: string;
+  role?: string;
+  department?: string;
+  linkedin?: string;
+};
 
 import { CardContainer, CardBody, CardItem } from './ui/3d-card';
 
@@ -39,11 +39,10 @@ const techCursors = [
 ];
 
 export default function Team() {
-  const [activeCategory, setActiveCategory] = useState('all');
-  const [showTeam, setShowTeam] = useState(false);
-  const samplePrompts = [
-    
-  ];
+  const [activeCategory, setActiveCategory] = useState('faculty');
+  const showTeam = true;
+  const [ref, inView] = useInView({
+    triggerOnce: true,
     threshold: 0.1,
   });
   
@@ -60,11 +59,7 @@ export default function Team() {
     return name.split(' ').map(n => n[0]).join('');
   };
 
-  const handlePromptSubmit = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === 'Enter') {
-      setShowTeam(true);
-    }
-  };
+
 
   if (isLoading) {
     return (
@@ -513,94 +508,6 @@ export default function Team() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        {/* ChatGPT Style Prompt Box */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="max-w-3xl mx-auto mb-16"
-        >
-          <div className="relative">
-            {/* Prompt Container */}
-            <div className="bg-white rounded-2xl shadow-lg border border-[#e2e8f0] overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="p-6">
-                <div className="flex items-center gap-3">
-                  {/* AI Avatar Icon */}
-                  <motion.div
-                    className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[#0891b2] to-[#10b981] flex items-center justify-center shadow-md"
-                    animate={{
-                      boxShadow: [
-                        "0 0 0 0px rgba(8, 145, 178, 0.4)",
-                        "0 0 0 8px rgba(8, 145, 178, 0)",
-                        "0 0 0 0px rgba(8, 145, 178, 0)"
-                      ]
-                    }}
-                    transition={{
-                      duration: 2,
-                      ease: "easeOut",
-                      repeat: Infinity
-                    }}
-                  >
-                    <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                    </svg>
-                  </motion.div>
-
-                  {/* Input Field */}
-                  <div className="flex-1 relative">
-                    <input
-                      type="text"
-                      value={promptValue}
-                      onChange={(e) => setPromptValue(e.target.value)}
-                      onKeyDown={handlePromptSubmit}
-                      placeholder='Try: "Display the club pillars — strengths, values, key members."'
-                      className="w-full px-4 py-3 text-lg font-semibold placeholder:italic placeholder:text-[#7b8ea0] focus:outline-none focus:ring-2 focus:ring-[#0891b2] rounded-md bg-transparent"
-                      data-testid="input-team-prompt"
-                    />
-                    
-                    {/* Typing cursor animation */}
-                    {!showTeam && (
-                      <motion.div
-                        className="absolute right-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-[#0891b2]"
-                        animate={{ opacity: [1, 0, 1] }}
-                        transition={{ duration: 1, repeat: Infinity }}
-                      />
-                    )}
-                  </div>
-
-                  {/* Send Button */}
-                  <motion.button
-                    onClick={() => setShowTeam(true)}
-                    className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-r from-[#0891b2] to-[#10b981] text-white flex items-center justify-center hover:shadow-lg transition-all duration-300"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    data-testid="button-submit-prompt"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                    </svg>
-                  </motion.button>
-                </div>
-              </div>
-
-              {/* Removed bottom hint to keep the prompt area clean and focused */}
-            </div>
-
-            {/* Decorative glow effect */}
-            <motion.div
-              className="absolute -inset-1 bg-gradient-to-r from-[#0891b2] to-[#10b981] rounded-2xl blur-xl opacity-0"
-              animate={{
-                opacity: [0, 0.15, 0]
-              }}
-              transition={{
-                duration: 3,
-                ease: "easeInOut",
-                repeat: Infinity
-              }}
-              style={{ zIndex: -1 }}
-            />
-          </div>
-        </motion.div>
 
         {/* Team Content - Shows after prompt submission */}
         {showTeam && (

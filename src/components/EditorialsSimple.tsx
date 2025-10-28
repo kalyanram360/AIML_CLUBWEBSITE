@@ -15,9 +15,9 @@ type Props = {
 export default function EditorialsSimple({ items = [] }: Props) {
   // If no items provided, show a small placeholder list so the UI is visible.
   const placeholder: EditorialItem[] = [
-    { id: 1, name: 'Editorial — October 2025', description: 'Highlights from the month: events, projects and wins.', viewHref: '#', downloadHref: '#' },
-    { id: 2, name: 'Club Newsletter — Sept 2025', description: 'Summary of workshops and member spotlights.', viewHref: '#', downloadHref: '#' },
-    { id: 3, name: 'Spotlight: Project X', description: 'An overview of Project X and outcomes achieved.', viewHref: '#', downloadHref: '#' },
+    { id: 1, name: 'Editorial — October 2025', description: 'Highlights from the month: events, projects and wins.', viewHref: '/AI_Club_Magazine_Final.pdf', downloadHref: '/AI_Club_Magazine_Final.pdf' },
+    // { id: 2, name: 'Club Newsletter — Sept 2025', description: 'Summary of workshops and member spotlights.', viewHref: '#', downloadHref: '#' },
+    // { id: 3, name: 'Spotlight: Project X', description: 'An overview of Project X and outcomes achieved.', viewHref: '#', downloadHref: '#' },
   ]
 
   const list = items.length ? items : placeholder
@@ -36,7 +36,7 @@ export default function EditorialsSimple({ items = [] }: Props) {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <h3 className="text-5xl md:text-6xl font-bold mb-20 text-center bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent">
-          Editorials
+          Magazines
         </h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
