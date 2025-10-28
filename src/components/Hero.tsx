@@ -442,6 +442,25 @@ import logo2 from '../assets/logo2.png';
 //   );
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaUsers, FaCalendarAlt, FaProjectDiagram } from 'react-icons/fa';
@@ -482,7 +501,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
+      <div className="relative z-10 max-w-15xl mx-auto px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           
           {/* Left Side - Content */}
@@ -492,25 +511,9 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
             className="flex flex-col items-center lg:items-start text-center lg:text-left"
           >
-            {/* Friendly Welcome Badge */}
-            {/* <motion.div
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-5 py-2 mb-6 bg-white/80 backdrop-blur-sm rounded-full shadow-lg border border-cyan-100"
-            >
-              <span className="relative flex h-3 w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-              </span>
-              <span className="text-sm font-semibold bg-gradient-to-r from-cyan-600 to-emerald-600 bg-clip-text text-transparent">
-                Join Our Growing Community
-              </span>
-            </motion.div> */}
-
-            {/* Main Heading with Logo */}
+            
             <div className="flex items-center justify-center lg:justify-start gap-5 mb-6">
-              {/* Logo */}
+          
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
                 <img
@@ -520,11 +523,22 @@ export default function Hero() {
                 />
               </div>
 
-              {/* Heading Text with Friendly Style */}
+            
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold bg-gradient-to-r from-[#0891b2] via-[#06b6d4] to-[#059669] bg-clip-text text-transparent tracking-tight leading-tight" style={{ fontFamily: "'Poppins', 'Inter', sans-serif" }}>
                 AIMOrbit
               </h1>
+              {/* <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>
+                <img
+                  src={logo2}
+                  alt="AI Club Logo"
+                  className="relative w-20 h-20 md:w-32 md:h-32 rounded-full object-cover border-4 border-cyan-400/60 shadow-2xl group-hover:scale-110 transition-transform duration-500"
+                />
+              </div> */}
             </div>
+
+
+
 
             {/* Rotating Text with Friendlier Leading */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 mb-6">
@@ -550,7 +564,7 @@ export default function Hero() {
 
             {/* College Name with Friendlier Style */}
             <p className="text-lg md:text-xl text-[#0891b2] mb-6 font-semibold tracking-wide" style={{ fontFamily: "'Inter', sans-serif" }}>
-              🎓 Gayatri Vidya Parishad College of Engineering 
+              🎓 Gayatri Vidya Parishad College of Engineering (A)
             </p>
 
             {/* Typing Animation with More Engaging Messages */}
