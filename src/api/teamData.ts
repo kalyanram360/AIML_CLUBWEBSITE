@@ -286,7 +286,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://www.linkedin.com/in/harsha-vardhan-881737395',
-    linkedin: 'https://www.linkedin.com/in/harsha-vardhan-881737395',
+ 
     imageUrl: '/images/team/vaedhan.jpeg'
   }
 ];
