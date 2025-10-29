@@ -306,22 +306,22 @@ const sampleActivities: Event[] = [
     participants: 200,
     tags: [],
   },
-  {
+   {
     id: '2',
     category: 'Workshop',
-    date: 'December 10',
+    date: 'December 5',
     year: '2024',
-    title: 'Python Session',
-    description: 'The Python workshop provided participants with a comprehensive introduction to Python programming. It covered key topics such as basic syntax, data types, control flow (if-else, loops), and functions. Additionally, the workshop explored more advanced concepts like object-oriented programming, handling libraries, and practical applications in data analysis and web development.The session included hands-on coding exercises, aimed at reinforcing the theoretical concepts through real-world examples. Whether for beginners or those with some programming experience, the workshop offered valuable insights into Python versatility and its potential in various domains.',
+    title: 'AI and Dl Workshop',
+    description: 'The AI Club of GVPCE successfully organized a highly informative and interactive Deep Learning and Artificial Intelligence Session on 20th & 21st December 2024 through Google Meet. The session was delivered by Mr. Sandeep Vissapragada, an alumnus of our college currently pursuing M.Tech at IIT Bhilai.The two-day session provided a structured and in-depth exploration of key concepts in Deep Learning and AI. The first day began with an introduction to Artificial Intelligence, its evolution over the years, and its impact on multiple industries. Participants were guided through the fundamentals of neural networks, activation functions, and optimization techniques, giving them a strong conceptual foundation.',
     images: [
-      'images/team/2.3.jpg',
-      'images/team/2.2.jpg',
-      "/images/team/2.1.jpg",
+      'images/team/3.1.1.jpg',
+      'images/team/4.2.jpg',
+      'images/team/4.3.jpg',
     ],
-    participants: 85,
-    tags: ['Python', 'Hands-on', 'Beginner Friendly'],
+    participants: 45,
+    tags: ['AI', 'Deep Learning', 'Virtual']
   },
-  {
+    {
     id: '3',
     category: 'Seminar',
     date: 'December 9',
@@ -339,17 +339,17 @@ const sampleActivities: Event[] = [
   {
     id: '4',
     category: 'Workshop',
-    date: 'December 5',
+    date: 'December 10',
     year: '2024',
-    title: 'AI and Dl Workshop',
-    description: 'The AI Club of GVPCE successfully organized a highly informative and interactive Deep Learning and Artificial Intelligence Session on 20th & 21st December 2024 through Google Meet. The session was delivered by Mr. Sandeep Vissapragada, an alumnus of our college currently pursuing M.Tech at IIT Bhilai.The two-day session provided a structured and in-depth exploration of key concepts in Deep Learning and AI. The first day began with an introduction to Artificial Intelligence, its evolution over the years, and its impact on multiple industries. Participants were guided through the fundamentals of neural networks, activation functions, and optimization techniques, giving them a strong conceptual foundation.',
+    title: 'Python Session',
+    description: 'The Python workshop provided participants with a comprehensive introduction to Python programming. It covered key topics such as basic syntax, data types, control flow (if-else, loops), and functions. Additionally, the workshop explored more advanced concepts like object-oriented programming, handling libraries, and practical applications in data analysis and web development.The session included hands-on coding exercises, aimed at reinforcing the theoretical concepts through real-world examples. Whether for beginners or those with some programming experience, the workshop offered valuable insights into Python versatility and its potential in various domains.',
     images: [
-      'images/team/3.1.1.jpg',
-      'images/team/4.2.jpg',
-      'images/team/4.3.jpg',
+      'images/team/2.3.jpg',
+      'images/team/2.2.jpg',
+      "/images/team/2.1.jpg",
     ],
-    participants: 45,
-    tags: ['AI', 'Deep Learning', 'Virtual']
+    participants: 85,
+    tags: ['Python', 'Hands-on', 'Beginner Friendly'],
   },
   {
     id: '5',
