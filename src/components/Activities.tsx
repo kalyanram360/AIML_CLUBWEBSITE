@@ -386,7 +386,7 @@ const sampleActivities: Event[] = [
     category: 'Workshop',
     date: 'Septemeber 24',
     year: '2025',
-    title: 'Ai Tools Wave',
+    title: 'Tool Wave',
     description: 'This workshop is designed to introduce students to a wide range of AI-powered tools that can generate images within seconds, edit videos in smart ways, speed up coding, and even convert text into voice. The session will provide valuable insights into how these tools can be effectively used for academic projects, technical presentations, and overall personal growth.',
     images: [
       'images/team/7.1.jpg',

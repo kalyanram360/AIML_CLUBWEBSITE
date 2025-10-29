@@ -143,7 +143,7 @@ export const teamMembers: TeamMember[] = [
     category: 'core',
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://www.linkedin.com/in/anand-mahadev-penumudi-a9a515290/',
-    imageUrl: '/images/team/anandh.jpg'
+    imageUrl: '/images/team/anand222.jpg'
   },{
     id: 17,
     name: 'Y. Hiranvika ',
