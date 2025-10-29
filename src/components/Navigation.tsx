@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logo2 from '../assets/logo2.png';
 import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -71,10 +72,13 @@ export default function Navigation() {
                 e.preventDefault();
                 scrollToSection('#home');
               }}
-              className="text-2xl font-bold bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent tracking-tight"
+              className="flex items-center gap-3 text-2xl tracking-tight"
               data-testid="link-logo"
             >
-              AIMOrbit
+              <img src={logo2} alt="AIMOrbit logo" className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover" />
+              <span className="font-bold bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent">
+                AIMOrbit
+              </span>
             </a>
 
             {/* Desktop Navigation */}
