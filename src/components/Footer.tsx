@@ -90,7 +90,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Resources */}
-          <div>
+          {/* <div>
             <h4 className="text-sm font-bold uppercase text-white mb-4 tracking-wide">
               Resources
             </h4>
@@ -113,7 +113,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
           {/* Column 4: Contact & Newsletter */}
           <div>

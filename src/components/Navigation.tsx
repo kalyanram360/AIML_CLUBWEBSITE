@@ -126,6 +126,11 @@ export default function Navigation() {
               ))}
             </div>
 
+            {/* GVP Logo at the far right (desktop only) */}
+            <div className="hidden lg:flex items-center ml-4">
+              <img src="/images/team/GVP%20Logo.png" alt="GVP Logo" className="w-20 h-20 object-contain" />
+            </div>
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
