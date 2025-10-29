@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import logo2 from '../assets/logo2.png';
-import { FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
+//whatsapp logo
+import { FaLinkedin, FaInstagram, FaEnvelope ,FaWhatsapp} from 'react-icons/fa';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -9,6 +10,7 @@ const navLinks = [
   { name: 'Activities', href: '#activities' },
   { name: 'Team', href: '#team' },
   { name: 'Magazines', href: '#editorials-simple' },
+  //whatsapp community like below
 ];
 
 
@@ -18,6 +20,7 @@ const socialLinks = [
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/aiclub-gvp-a5212425a/', label: 'LinkedIn' },
   { icon: FaInstagram, href: 'https://www.instagram.com/gvpaiclub18?igsh=a3V1dWtlb2Ntem84', label: 'Instagram' },
   { icon: FaEnvelope, href: 'mailto:ai_club@gvpce.ac.in', label: 'Email' },
+  { icon: FaWhatsapp , href: 'https://whatsapp.com/channel/0029VaqsyuT4yltJHSTNUC2j', label: 'WhatsApp' },
 ];
 
 export default function Navigation() {

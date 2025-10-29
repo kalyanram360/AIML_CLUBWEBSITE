@@ -15,7 +15,7 @@ type Props = {
 export default function EditorialsSimple({ items = [] }: Props) {
   // If no items provided, show a small placeholder list so the UI is visible.
   const placeholder: EditorialItem[] = [
-    { id: 1, name: 'AI_Club_Magazine 2025', description: 'Highlights from the month: events, projects and wins.', viewHref: '/AI_Club_Magazine_Final.pdf', downloadHref: '/AI_Club_Magazine_Final.pdf' },
+    { id: 1, name: 'LUMIN: Beyond the Thoughts – AI Club Magazine (Vol. 2, Issue 02)', description: 'LUMIN is where imagination meets intelligence. This edition unlocks the world of AI—from GPT-5 and neural networks to hands-on coding, IoT, and generative creativity. Crafted by the AI Club of GVPCE(A), it’s a vibrant showcase of student-led innovation, tech passion, and future-ready thinking.', viewHref: '/AI_Club_Magazine_Final.pdf', downloadHref: '/AI_Club_Magazine_Final.pdf' },
     // { id: 2, name: 'Club Newsletter — Sept 2025', description: 'Summary of workshops and member spotlights.', viewHref: '#', downloadHref: '#' },
     // { id: 3, name: 'Spotlight: Project X', description: 'An overview of Project X and outcomes achieved.', viewHref: '#', downloadHref: '#' },
   ]

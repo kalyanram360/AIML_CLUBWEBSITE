@@ -311,7 +311,7 @@ const sampleActivities: Event[] = [
     category: 'Workshop',
     date: 'December 5',
     year: '2024',
-    title: 'AI and Dl Workshop',
+    title: 'AI and DL Workshop',
     description: 'The AI Club of GVPCE successfully organized a highly informative and interactive Deep Learning and Artificial Intelligence Session on 20th & 21st December 2024 through Google Meet. The session was delivered by Mr. Sandeep Vissapragada, an alumnus of our college currently pursuing M.Tech at IIT Bhilai.The two-day session provided a structured and in-depth exploration of key concepts in Deep Learning and AI. The first day began with an introduction to Artificial Intelligence, its evolution over the years, and its impact on multiple industries. Participants were guided through the fundamentals of neural networks, activation functions, and optimization techniques, giving them a strong conceptual foundation.',
     images: [
       'images/team/3.1.1.jpg',
