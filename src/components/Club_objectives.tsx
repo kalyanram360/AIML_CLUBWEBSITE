@@ -11,9 +11,15 @@ export default function ClubObjectives() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#10b981] to-[#0891b2]">
+          {/* <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#10b981] to-[#0891b2]">
             Objectives of the Club
-          </h2>
+          </h2> */}
+          <h2
+  className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-[#10b981] to-[#0891b2] leading-tight pb-2 inline-block"
+>
+  Objectives of the Club
+</h2>
+
           <p className="text-lg text-[#475569] max-w-3xl mx-auto">
             Building a community of learners, innovators, and problem-solvers through practical experiences and collaborative growth.
           </p>

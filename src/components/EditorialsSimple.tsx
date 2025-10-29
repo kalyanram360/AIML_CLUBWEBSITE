@@ -25,7 +25,7 @@ export default function EditorialsSimple({ items = [] }: Props) {
   // use a public placeholder image located in `public/images/team/cpf.png`
   const placeholderSvg = '/images/team/cpf.png'
 
-  
+
 
   return (
     <section id="editorials-simple" className="relative py-5 bg-gradient-to-br from-[#f0f9ff] via-[#f0fdf4] to-[#ecfdf5]">
@@ -77,14 +77,14 @@ export default function EditorialsSimple({ items = [] }: Props) {
                     View
                   </a>
 
-                  <a
+                  {/* <a
                     href={it.downloadHref ?? '#'}
                     className="inline-flex items-center px-3 py-2 bg-white border border-gray-200 text-sm text-gray-700 rounded-md"
                     onClick={(e) => { if (!it.downloadHref || it.downloadHref === '#') e.preventDefault() }}
                     download
                   >
                     Download
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </article>
