@@ -7,9 +7,6 @@ const quickLinks = [
   { name: 'Team', href: '#team' },
 ];
 
-const resources = [
-  { name: '', href: '#' },
-];
 
 const socialLinks = [
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/aiclub-gvp-a5212425a/', label: 'LinkedIn' },
