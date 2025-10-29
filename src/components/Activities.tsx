@@ -293,7 +293,7 @@ const sampleActivities: Event[] = [
   
   {
     id: '1',
-    category: 'Workshop',
+    category: 'Inauguration',
     date: 'October 5',
     year: '2024',
     title: 'AI Club Inauguration',
