@@ -120,7 +120,7 @@ export default function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-start gap-3 text-[#cbd5e1]">
                 <FaEnvelope className="w-4 h-4 mt-1 text-[#0891b2]" />
-                <span className="text-sm">aiclub@university.edu</span>
+                <span className="text-sm">ai_club@gvpce.ac.in</span>
               </div>
               {/* <div className="flex items-start gap-3 text-[#cbd5e1]">
                 <FaPhone className="w-4 h-4 mt-1 text-[#0891b2]" />
