@@ -525,7 +525,7 @@ export default function Hero() {
 
             
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold bg-gradient-to-r from-[#0891b2] via-[#06b6d4] to-[#059669] bg-clip-text text-transparent tracking-tight leading-tight" style={{ fontFamily: "'Poppins', 'Inter', sans-serif" }}>
-                AIMOrbit
+                AI Club
               </h1>
               {/* <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-emerald-400 rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-500"></div>

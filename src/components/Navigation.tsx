@@ -77,7 +77,7 @@ export default function Navigation() {
             >
               <img src={logo2} alt="AIMOrbit logo" className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover" />
               <span className="font-bold bg-gradient-to-r from-[#0891b2] to-[#059669] bg-clip-text text-transparent">
-                AIMOrbit
+                AI Club
               </span>
             </a>
 
