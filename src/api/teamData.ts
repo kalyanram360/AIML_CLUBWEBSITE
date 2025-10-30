@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     category: 'faculty',
     description: 'Specialist in Computer Vision and Deep Learning Research.',
     linkedin: '',
-    imageUrl: '/images/team/Ajaykumar.jpg'
+    imageUrl: '/images/team/ajay.jpg'
   }, {
     id: 2,
     name: 'Dr. G. Satya Keerthi',
@@ -298,5 +298,14 @@ export const teamMembers: TeamMember[] = [
     description: 'Building and nurturing our vibrant AI community.',
     linkedin: 'https://www.linkedin.com/in/prabhas-gamini-85a93a2b7/',
     imageUrl: '/images/team/prabhas.jpeg'
+  },
+  {
+    id: 36,
+    name: 'Mr.B.Ajay Ram',
+    role: 'Assistant Professor',
+    category: 'pastcoordinators',
+    description: 'assisting in various academic and administrative tasks.',
+    linkedin: '',
+    imageUrl: '/images/team/ajayram.jpg'
   }
 ];

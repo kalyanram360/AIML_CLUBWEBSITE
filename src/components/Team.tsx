@@ -27,6 +27,9 @@ const categories = [
   { id: 'faculty', label: 'Department Faculty' },
  
   { id: 'core', label: 'Core Team' },
+
+  { id: 'pastcoordinators', label: 'Past Coordinators' },
+  // { id: 'pastmembers', label: 'Past Members' }
 ];
 
 const techCursors = [
