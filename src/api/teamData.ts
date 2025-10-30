@@ -16,7 +16,7 @@ export const teamMembers: TeamMember[] = [
     category: 'faculty',
     description: 'Specialist in Computer Vision and Deep Learning Research.',
     linkedin: '',
-    imageUrl: '/images/team/Ajaykumar.jpg'
+    imageUrl: '/images/team/ajay.jpg'
   }, {
     id: 2,
     name: 'Dr. G. Satya Keerthi',
