@@ -290,5 +290,13 @@ export const teamMembers: TeamMember[] = [
     linkedin: 'https://www.linkedin.com/in/harsha-vardhan-881737395',
  
     imageUrl: '/images/team/vaedhan.jpeg'
+  },{
+    id: 35,
+    name: 'G.Prabhas',
+    role: 'Executive Head',
+    category: 'core',
+    description: 'Building and nurturing our vibrant AI community.',
+    linkedin: 'https://www.linkedin.com/in/prabhas-gamini-85a93a2b7/',
+    imageUrl: '/images/team/prabhas.jpeg'
   }
 ];
