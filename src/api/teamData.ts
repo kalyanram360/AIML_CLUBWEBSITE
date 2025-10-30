@@ -307,5 +307,15 @@ export const teamMembers: TeamMember[] = [
     description: 'assisting in various academic and administrative tasks.',
     linkedin: '',
     imageUrl: '/images/team/ajayram.jpg'
+  },
+  {
+       id: 37,
+    name: 'Dr.R.Seeta Sireesha',
+    role: 'Associate Professor',
+    category: 'pastcoordinators',
+    description: 'assisting in various academic and administrative tasks.',
+    linkedin: '',
+    imageUrl: '/images/team/sitasirisha.jpeg'
+
   }
 ];
